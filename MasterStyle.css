@@ -1,0 +1,36 @@
+﻿body {
+}
+
+.Header
+{
+    position:absolute;
+    top:10px;
+    left:10px;
+    height:100px;
+    width:750px;
+    text-align:center
+}
+.LeftPanel{
+    position:absolute;
+    top:120px;
+    left:10px;
+    height:500px;
+    width:150px;
+}
+
+.Footer{
+    position:absolute;
+    top:650px;
+    height:30px;
+    width:750px;
+    left:10px;
+    text-align:left
+}
+
+.RightPanel{
+    position:absolute;
+    left:170px;
+    top:120px;
+    height:500px;
+    width:590px;
+}

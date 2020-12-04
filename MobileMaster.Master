@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MobileMaster.master.cs" Inherits="Lab5Q4.MobileMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="MasterStyle.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="Header">
+            <h1>Mobivision</h1>
+        </div>
+        <div class="LeftPanel">
+            <asp:Label ID="lblMobile" runat="server"></asp:Label>
+        </div>
+        <div class="RightPanel">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="Footer">
+            For more details contact:9999888877.
+        </div>
+    </form>
+</body>
+</html>
